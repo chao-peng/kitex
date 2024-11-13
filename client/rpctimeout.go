@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/wpool"
 	"github.com/cloudwego/kitex/pkg/endpoint"
 	"github.com/cloudwego/kitex/pkg/kerrors"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
 	"github.com/cloudwego/kitex/pkg/rpctimeout"
+	"github.com/cloudwego/kitex/pkg/wpool"
 )
 
 // workerPool is used to reduce the timeout goroutine overhead.
